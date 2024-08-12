@@ -1284,14 +1284,25 @@ input[type="email"] {
     display: inline-block;
     width: 70%;
     height: 20px;
-    padding: 24px 12px;
+    padding: 24px 40px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-top: 40px;
     border-radius: 5px;
+    position: relative;
 }
 
+.email-img
+{
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    z-index: 999;
+}
+
+
 .btn {
+    position: relative;
     margin-left: -115px;
     font-size: 14px;
     display: inline-block;
@@ -1341,9 +1352,17 @@ footer .subscribe .img2
         display: inline-block;
         width: 70%;
         height: 20px;
-        padding: 16px 12px 18px;
+        padding: 16px 40px 18px;
         margin-top: 0px;
         border-radius: 5px;
+    }
+
+    .email-img
+    {
+        position: absolute;
+        top: 78%;
+        left: 21%;
+        z-index: 999;
     }
     
     .btn {
@@ -1400,11 +1419,19 @@ footer .subscribe .img2
         display: inline-block;
         width: 70%;
         height: 20px;
-        padding: 24px 12px;
+        padding: 24px 40px;
         border: 1px solid #ccc;
         box-sizing: border-box;
         margin-bottom: 20px;
         border-radius: 5px;
+    }
+
+    .email-img
+    {
+        position: absolute;
+        top: 72%;
+        left: 19%;
+        z-index: 999;
     }
     
     .btn {
@@ -1461,12 +1488,21 @@ footer .subscribe .img2
         display: inline-block;
         width: 70%;
         height: 20px;
-        padding: 24px 12px;
+        padding: 24px 40px;
         border: 1px solid #ccc;
         box-sizing: border-box;
         margin-bottom: 20px;
         border-radius: 5px;
     }
+
+    .email-img
+    {
+        position: absolute;
+        top: 67%;
+        left: 22%;
+        z-index: 999;
+    }
+    
     
     .btn {
         margin-left: -115px;
@@ -1479,7 +1515,7 @@ footer .subscribe .img2
         background-color: #FA7436;
         color: #fff;
     }
-    
+
     footer .subscribe .img1
     {
         position: absolute;
@@ -1522,11 +1558,19 @@ footer .subscribe .img2
         display: inline-block;
         width: 70%;
         height: 20px;
-        padding: 24px 12px;
+        padding: 24px 40px;
         border: 1px solid #ccc;
         box-sizing: border-box;
         margin-bottom: 20px;
         border-radius: 5px;
+    }
+
+    .email-img
+    {
+        position: absolute;
+        top: 71%;
+        left: 20%;
+        z-index: 999;
     }
     
     .btn {
